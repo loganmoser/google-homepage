@@ -30,6 +30,11 @@
 .nav-flex-container a:hover{
     text-decoration: underline;
 }
+.nav-flex-child-1{
+    display: flex;
+    align-items: center;
+}
+
 .nav-flex-child-2 {
 /*Fill in with rules for the right side of the navbar*/
     margin-right: 20px;
@@ -60,6 +65,8 @@
     justify-content: center;
     align-content: center;
     margin-top: 20px;
+    border: 1px grey;
+    
     
 }
 .button{
@@ -71,4 +78,35 @@
 }
 .button_srch{
     margin-right: 20px;
+}
+
+.foot-flex-container{
+    display: flex;
+    justify-content: space-between;
+    bottom: 10px;
+    
+    
+    
+    padding: 10px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        
+    position: absolute;
+    width: 100%;
+    
+    left: 0px;
+    
+}
+.foot-flex-container a {
+    color:grey;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.foot-flex-container a:hover{
+    text-decoration: underline;
+    
+}
+.foot-flex-child-2 {
+    /*Fill in with rules for the right side of the navbar*/
+        margin-right: 30px;
 }
